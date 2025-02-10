@@ -11,3 +11,6 @@ header, footer{
 #my-image{
     box-shadow:0px 0px 2px 1px #000;
 }
+#hobby-list :nth-child(2){
+    background-color: rgb(132, 156, 0);
+}
