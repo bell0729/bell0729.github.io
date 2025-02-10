@@ -12,5 +12,13 @@ header, footer{
     box-shadow:0px 0px 2px 1px #000;
 }
 #hobby-list :nth-child(2){
-    background-color: rgb(132, 156, 0);
+    background-color: rgb(217, 255, 0);
+}
+nav ul :link{
+    text-decoration: none;
+    background-color:rgb(208, 0, 255);
+    border-radius:5px;
+}
+nav ul :hover{
+    color:yellow;
 }
