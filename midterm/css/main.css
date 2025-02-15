@@ -1,0 +1,21 @@
+body{
+    /* background-color: red; */
+    /* background-repeat: no-repeat; */
+    background-position: center 0px;
+    /* background-size: cover; */
+}
+img{
+    display: block;
+    margin: auto;
+}
+.con{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.cent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
