@@ -1,14 +1,10 @@
-body{
-    /* background-color: red; */
-    /* background-repeat: no-repeat; */
-    background-position: center 0px;
-    /* background-size: cover; */
-}
+/* image wide = 1024 / 341 px */
 .wrapper{
     margin: auto;
 }
 .stage{
-    width: 100%;
+    width: 1024px;
+    height: 10000px;
     background-color: red;
     margin: auto;
 }
@@ -16,9 +12,19 @@ body{
     position: relative;
     text-align: center;
     z-index: 1;
+    margin: auto;
 }
 .prop header{
     position: relative;
     color: rgb(0, 0, 0);
     top: -100px;
+}
+.star{
+    position: relative;
+    float: left;
+    width: 350px;
+}
+p{
+    text-align: left;
+    font-size: 20px;
 }
