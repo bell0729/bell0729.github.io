@@ -29,6 +29,7 @@
     position: relative;
     float: left;
     width: 350px;
+    padding: 10px;
 }
 .paras{
     text-align: left;
@@ -42,9 +43,10 @@
     position: relative;
     margin: auto;
 }
-#fname, #email, #mess{
+#fname, #email, #message{
     width: 99%;
 }
-#mess{
+#message{
     height: 150px;
+    text-align: top;
 }
