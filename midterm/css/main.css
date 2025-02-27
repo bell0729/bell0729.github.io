@@ -35,3 +35,16 @@
     font-size: 20px;
     padding: 1%;
 }
+.form{
+    width: 1000px;
+    height: 400px;
+    background-color: blue;
+    position: relative;
+    margin: auto;
+}
+#fname, #email, #mess{
+    width: 99%;
+}
+#mess{
+    height: 150px;
+}
