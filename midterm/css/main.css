@@ -10,6 +10,21 @@
     text-align: center;
     z-index: 1;
 }/*makes prop position relative to stage, text aligned to center, puts the text above everything*/
+.prop>nav>ul{
+    padding-left: 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    background-color: rgb(0, 191, 184);
+    z-index: 1;
+}/*makes the nav unordered list have no padding, text center, relative to prop, width 100%, bkacground colour that and have it above everything else */
+nav li{
+    display: inline-block;
+    margin: 0 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 30px;
+}/*makes the list block level, margins 10px, padding on left and right 100px and font size 30px*/
 .prop>header{
     position: relative;
     color: rgb(0, 0, 0);
