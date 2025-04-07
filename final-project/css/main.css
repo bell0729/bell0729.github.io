@@ -55,3 +55,17 @@ body{
     font-variation-settings:
       "wdth" 100;
   }
+  .wrapper{
+    width: 1200px;
+    margin: auto;
+  }
+  .nav-bar{
+    background-color: rgb(2, 2, 2);
+    color: #c78c06;
+    padding: 5px;
+  }
+  .nav-bar>nav>ul>li{
+    text-align: center;
+    padding: 10px;
+  }
+  
