@@ -60,6 +60,7 @@ body{
     margin: auto;
   }
   .nav-bar{
+    font-size: 20px;
     background-color: rgb(2, 2, 2);
     color: #c78c06;
     padding: 5px;
@@ -68,4 +69,21 @@ body{
     text-align: center;
     padding: 10px;
   }
-  
+  .search{
+    display: flex;
+    justify-content: space-between;
+  }
+  .search>input{
+    width: 100%;
+    font-size: 20px;
+    border-radius: 2px;
+    height: 25px;
+  }
+  .search>button{
+    font-size: 20px;
+    background-color: rgb(2, 2, 2);
+    color: #c78c06;
+    border-color: #c78c06;
+    border-style: solid;
+    border-width: 1px;
+  }
