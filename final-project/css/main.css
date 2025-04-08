@@ -96,3 +96,30 @@ div.nav-bar>nav>ul>li:nth-child(1){
     border-style: solid;
     border-width: 1px;
 }
+header{
+    color: white;
+    padding: 100px 0px 100px 0px;
+    background-image: url(/images/main-banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+header>h1, header>p, .connect{
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+}
+header>h1{
+    font-size: 75px;
+    padding-top: 30px;
+    line-height: 83px;
+}
+header>p{
+    line-height: 23px;
+    padding: 10px;
+}
+.connect>button{
+    height: 60px;
+    background-color: #c78c06;
+    border-width: 0px;
+    font-size: 25px;
+    
+}
