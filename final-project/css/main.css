@@ -139,27 +139,46 @@ header>p{
 }
 .about>p{
     line-height: 20px;
+    padding-bottom: 20px;
 }
 .services{
-    background-color: #ffe6ac;
     padding: 10px;
 }
-.services>img{
+.services>div{
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+}
+.services>div>img{
     width: calc(760px - 20px);
+    padding-top: 20px;
+    background-color: white;
+}
+.services>div>h1{
+    font-size: 70px;
+    padding-bottom: 20px;
 }
 .services>h1{
     font-size: 70px;
     padding-bottom: 20px;
+    padding-top: 40px;
 }
-.services>h2{
+.services>div>h2{
     font-size: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 10px;
 }
-.services>p{
+.services>div>p{
     padding-bottom: 10px;
     line-height: 20px;
+    padding-left: 10px;
 }
-.services>form>button{
-    height: 50px;
+.services>div>form{
+    padding-left: 10px;
+}
+.services>div>form>button{
+    font-size: 20px;
+    background-color: #222;
+    color: white;
+    padding: 25px 15px 25px 15px;
 }
