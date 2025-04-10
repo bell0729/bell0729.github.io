@@ -188,3 +188,22 @@ header>p{
     color: white;
     padding: 25px 15px 25px 15px;
 }
+.vision>h1, .vision>p, .vision>.learn{
+    padding: 10px;
+}
+.vision{
+    color: white;
+    background-image: url(/images/vision.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.vision>p{
+    line-height: 20px;
+}
+.learn>button{
+    padding: 30px 20px 30px 20px;
+    background-color: #222;
+    color: white;
+    border-style: solid 2px;
+    border-color: #c78c06;
+}
