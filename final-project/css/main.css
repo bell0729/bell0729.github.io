@@ -47,6 +47,10 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
 body{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -54,6 +58,15 @@ body{
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 40px;
+}
+button{
+    font-size: 20px;
 }
 .wrapper{
     width: 760px;
@@ -89,7 +102,6 @@ div.nav-bar>nav>ul>li:nth-child(1){
     height: 25px;
 }
 .search>button{
-    font-size: 20px;
     background-color: rgb(22, 22, 22);
     color: #c78c06;
     border-color: #c78c06;
@@ -108,7 +120,6 @@ header>h1, header>p, .connect{
     padding: 10px;
 }
 header>h1{
-    font-size: 70px;
     padding-top: 30px;
     line-height: 83px;
 }
@@ -120,7 +131,6 @@ header>p{
     height: 60px;
     background-color: #c78c06;
     border-width: 0px;
-    font-size: 25px;
     
 }
 .about{
@@ -133,7 +143,6 @@ header>p{
     padding-top: 10px;
 }
 .about>h1{
-    font-size: 70px;
     padding-top: 30px;
     padding-bottom: 20px;
 }
@@ -154,16 +163,13 @@ header>p{
     background-color: white;
 }
 .services>div>h1{
-    font-size: 70px;
     padding-bottom: 20px;
 }
 .services>h1{
-    font-size: 70px;
     padding-bottom: 20px;
     padding-top: 40px;
 }
 .services>div>h2{
-    font-size: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
