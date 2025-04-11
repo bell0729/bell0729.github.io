@@ -238,7 +238,7 @@ header>p{
     line-height: 20px;
 }
 .contact{
-    padding: 0px 10px 0px 10px;
+    padding: 0px 10px 10px 10px;
 }
 .contact>h1{
     padding-top: 70px;
@@ -272,36 +272,21 @@ header>p{
     width: calc(760px - 20px);
 }
 .b1{
-    padding-top: 10px;
-    padding-bottom: 10px;
     grid-area: b1;
-    background-color: #ffe6ac;
 }
 .b2{
-    padding-top: 10px;
-    padding-bottom: 10px;
     grid-area: b2;
-    background-color: #ffe6ac;
 }
 .b3{
-    padding-top: 10px;
-    padding-bottom: 10px;
     grid-area: b3;
-    
 }
 .b4{
-    padding-top: 10px;
-    padding-bottom: 10px;
     grid-area: b4;
 }
 .b5{
-    padding-top: 10px;
-    padding-bottom: 10px;
     grid-area: b5;
 }
 .b6{
-    padding-top: 10px;
-    padding-bottom: 10px;
     grid-area: b6;
 }
 .hours>h2{
@@ -309,11 +294,13 @@ header>p{
     padding-bottom: 10px;
 }
 .b1, .b2{
+    background-color: #ffe6ac;
     padding-left: calc(50% - 20px );
     padding-right: calc(50%-20px);
 }
 .b1, .b2, .b3, .b4, .b5, .b6{
     border: solid 1px #222;
+    padding-top: 15px;
 }
 .b3, .b4, .b5, .b6{
     background-color: white;
@@ -329,7 +316,11 @@ header>p{
     "b3 b5"
     "b4 b6";
 }
-
+footer{
+    color: #c78c06;
+    padding: 20px 10px 20px 10px;
+    background-color: #222;
+}
 /* @media screen and (min-width: 760px){
     .wrapper{
         max-width: 1200px;
