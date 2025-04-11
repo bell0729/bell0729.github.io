@@ -79,12 +79,12 @@ button{
     color: #c78c06;
     padding: 10px;
 }
-.nav-bar>img{
+.logo>img{
     float: left;
     z-index: 2;
     clear: left;
 }
-div.nav-bar>nav>ul>li:nth-child(1){
+.home{
     padding-top: 100px;
     background-color: #c78c06;
     color: rgb(22, 22, 22);
@@ -95,7 +95,6 @@ div.nav-bar>nav>ul>li:nth-child(1){
 }
 .search{
     display: flex;
-    justify-content: space-between;
 }
 .search>input{
     width: 100%;
@@ -326,13 +325,23 @@ footer{
     .wrapper{
         max-width: 1200px;
     }
-    .nav-bar>nav>ul, .logo{
+
+
+
+    .nav-bar>nav>ul, .logo>img, .search{
         display: flex;
-    }
-    .nav-bar>nav>ul>li .logo>img{
         flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
-    .nav-bar>nav>ul .logo>img{
-        justify-content: center;
+    nav>ul>li{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .search>input{
+        width: 200px;
+    }
+    .nav-bar{
+        height: 100px;
     }
 }

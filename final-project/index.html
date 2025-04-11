@@ -10,22 +10,22 @@
 <body><!--all fonts are arial halvetica-->
     <div class="wrapper"> <!-- to center everything on page -->
         <div class="nav-bar">
-            <div class="logo">
-                <img src="images/logo.png" alt="logo with three orange stars"> <!--put in top left with same orange coloured background-->
-            </div>
             <nav><!--put in column with Home touching orange banner-->
                 <ul>
-                    <li><a href="#"></a>Home</li>
+                    <div class="logo">
+                        <img src="images/logo.png" alt="logo with three orange stars"> <!--put in top left with same orange coloured background-->
+                    </div>
+                    <li class="home"><a href="#"></a>Home</li>
                     <li><a href="#"></a>About Us</li>
                     <li><a href="#"></a>Services</li>
                     <li><a href="#"></a>Team</li>
                     <li><a href="#"></a>Contact</li>
+                    <form class="search" action="#"><!--streaches from left to right of screen and orange magnifying glass-->
+                        <input type="text" placeholder="Search" name="Search">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
                 </ul>
             </nav>
-            <form class="search" action="#"><!--streaches from left to right of screen and orange magnifying glass-->
-                <input type="text" placeholder="Search" name="Search">
-                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
         </div>
         <header><!--put on a 50% black box over an image-->
             <h1>Welcome to Three Star Media</h1>
