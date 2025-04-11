@@ -71,7 +71,7 @@ button{
 .wrapper{
     max-width: 760px;
     margin: auto;
-    /* background-color: aqua; */
+    background-color: aqua;
 }
 .nav-bar{
     font-size: 20px;
@@ -287,6 +287,7 @@ header>p{
     padding-top: 10px;
     padding-bottom: 10px;
     grid-area: b3;
+    
 }
 .b4{
     padding-top: 10px;
@@ -305,17 +306,30 @@ header>p{
 }
 .hours>h2{
     grid-area: header;
+    padding-bottom: 10px;
+}
+.b1, .b2{
+    padding-left: calc(50% - 20px );
+    padding-right: calc(50%-20px);
+}
+.b1, .b2, .b3, .b4, .b5, .b6{
+    border: solid 1px #222;
+}
+.b3, .b4, .b5, .b6{
+    background-color: white;
+    padding-left: 5px;
 }
 .hours{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: 
-    "header header"
+    "header ."
     "b1 b2"
     "b3 b5"
     "b4 b6";
 }
+
 /* @media screen and (min-width: 760px){
     .wrapper{
         max-width: 1200px;
