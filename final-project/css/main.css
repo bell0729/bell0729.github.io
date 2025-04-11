@@ -71,7 +71,7 @@ button{
 .wrapper{
     max-width: 760px;
     margin: auto;
-    background-color: aqua;
+    background-color: aqua;/*--------------------------------------------------*/
 }
 .nav-bar{
     font-size: 20px;
@@ -82,6 +82,7 @@ button{
 .nav-bar>img{
     float: left;
     z-index: 2;
+    clear: left;
 }
 div.nav-bar>nav>ul>li:nth-child(1){
     padding-top: 100px;
@@ -321,14 +322,17 @@ footer{
     padding: 20px 10px 20px 10px;
     background-color: #222;
 }
-/* @media screen and (min-width: 760px){
+@media screen and (min-width: 760px){
     .wrapper{
         max-width: 1200px;
     }
-    .nav-bar{
+    .nav-bar>nav>ul, .logo{
         display: flex;
     }
-    .nav-bar>nav>ul>li{
-        
+    .nav-bar>nav>ul>li .logo>img{
+        flex-direction: row;
     }
-} */
+    .nav-bar>nav>ul .logo>img{
+        justify-content: center;
+    }
+}
