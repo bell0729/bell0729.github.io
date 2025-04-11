@@ -71,7 +71,7 @@ button{
 .wrapper{
     max-width: 760px;
     margin: auto;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .nav-bar{
     font-size: 20px;
@@ -259,6 +259,62 @@ header>p{
 }
 .info>input{
     height: 100px;
+}
+.sub>button{
+    background-color: #222;
+    color: #c78c06;
+    border-style: solid 0px;
+}
+.location>h2{
+    padding-bottom: 20px;
+}
+.location>iframe{
+    width: calc(760px - 20px);
+}
+.b1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    grid-area: b1;
+    background-color: #ffe6ac;
+}
+.b2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    grid-area: b2;
+    background-color: #ffe6ac;
+}
+.b3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    grid-area: b3;
+}
+.b4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    grid-area: b4;
+}
+.b5{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    grid-area: b5;
+}
+.b6{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    grid-area: b6;
+}
+.hours>h2{
+    grid-area: header;
+}
+.hours{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "header header"
+    "b1 b2"
+    "b3 b5"
+    "b4 b6";
 }
 /* @media screen and (min-width: 760px){
     .wrapper{
