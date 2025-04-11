@@ -69,7 +69,7 @@ button{
     font-size: 20px;
 }
 .wrapper{
-    width: 760px;
+    max-width: 760px;
     margin: auto;
     background-color: aqua;
 }
@@ -247,3 +247,27 @@ header>p{
 .contact>h2{
     padding-top: 20px;
 }
+.message>form>input{
+    width: calc(760px - 25px);
+}
+.message>form{
+    padding-bottom: 15px;
+    padding-top: 2px;
+}
+.fname{
+    padding-top: 15px;
+}
+.info>input{
+    height: 100px;
+}
+/* @media screen and (min-width: 760px){
+    .wrapper{
+        max-width: 1200px;
+    }
+    .nav-bar{
+        display: flex;
+    }
+    .nav-bar>nav>ul>li{
+        
+    }
+} */
