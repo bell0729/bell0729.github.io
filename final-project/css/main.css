@@ -67,7 +67,7 @@ h2{
 button{
     font-size: 20px;
 }
-.stage{
+.wrapper{
     max-width: 760px;
     margin: auto;
     background-color: aqua;/*--------------------------------------------------*/
@@ -321,13 +321,14 @@ footer{
     padding: 20px 10px 20px 10px;
     background-color: #222;
 }
-/* @media screen and (min-width: 760px){
+@media screen and (min-width: 760px){
     .wrapper{
-        width: 100%;
+        max-width: 100%;
         background-color: #222;
     }
-    .stage{
+    .nav-bar{
         max-width: 1200px;
+        margin: auto;
     }
     .nav-bar>nav>ul, .logo>img, .search{
         display: flex;
@@ -339,14 +340,14 @@ footer{
         padding-left: 30px;
         padding-right: 30px;
     }
+    #home{
+        padding-top: 15px;
+    }
     .search>input{
         width: 200px;
-    }
-    .nav-bar{
-        height: 100px;
     }
     header{
         background-size: cover;
         background-position: center;
     }
-} */
+}
