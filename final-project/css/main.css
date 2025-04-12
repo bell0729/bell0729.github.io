@@ -138,15 +138,15 @@ header>p{
     padding-right: 10px;
     background-color: #ffe6ac;
 }
-.about>img{
+.about-sec>img{
     width: calc(760px - 20px);
     padding-top: 10px;
 }
-.about>h1{
+.about-sec>h1{
     padding-top: 30px;
     padding-bottom: 20px;
 }
-.about>p{
+.about-sec>p{
     line-height: 20px;
     padding-bottom: 20px;
 }
@@ -346,8 +346,22 @@ footer{
     .search>input{
         width: 200px;
     }
-    header{
-        background-size: cover;
-        background-position: center;
+    header>h1, header>p, .connect{
+        width: 1200px;
+        margin: auto;
+    }
+    .about{
+        padding-bottom: 10px;
+    }
+    .about-sec{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        width: 1200px;
+        margin: auto;
+    }
+    .about-sec>img{
+        width: 600px;
+        padding-right: 10px;
     }
 }
