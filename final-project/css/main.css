@@ -53,7 +53,6 @@ table {
 
 body{
     font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
@@ -68,14 +67,14 @@ h2{
 button{
     font-size: 20px;
 }
-.wrapper{
+.stage{
     max-width: 760px;
     margin: auto;
     background-color: aqua;/*--------------------------------------------------*/
 }
 .nav-bar{
     font-size: 20px;
-    background-color: rgb(22, 22, 22);
+    background-color: #222;
     color: #c78c06;
     padding: 10px;
 }
@@ -84,14 +83,14 @@ button{
     z-index: 2;
     clear: left;
 }
-.home{
-    padding-top: 100px;
-    background-color: #c78c06;
-    color: rgb(22, 22, 22);
-}
 .nav-bar>nav>ul>li{
     text-align: center;
     padding: 15px;
+}
+.home{
+    padding: 100px 15px 15px 15px;
+    background-color: #c78c06;
+    color: #222;
 }
 .search{
     display: flex;
@@ -103,7 +102,7 @@ button{
     height: 25px;
 }
 .search>button{
-    background-color: rgb(22, 22, 22);
+    background-color: #222;
     color: #c78c06;
     border-color: #c78c06;
     border-style: solid;
@@ -205,8 +204,9 @@ header>p{
     padding: 30px 20px 30px 20px;
     background-color: #222;
     color: white;
-    border-style: solid 2px;
+    border-style: solid;
     border-color: #c78c06;
+    border: 2px;
 }
 .team>img, .team{
     padding-top: 20px;
@@ -227,7 +227,7 @@ header>p{
 }
 .team>div>hr{
     color: #c78c06;
-    border-style: solid 1px;
+    border-style: solid;
     border-color: #c78c06;
 }
 .team>div>h3{
@@ -263,7 +263,7 @@ header>p{
 .sub>button{
     background-color: #222;
     color: #c78c06;
-    border-style: solid 0px;
+    border-style: solid;
 }
 .location>h2{
     padding-bottom: 20px;
@@ -296,7 +296,7 @@ header>p{
 .b1, .b2{
     background-color: #ffe6ac;
     padding-left: calc(50% - 20px );
-    padding-right: calc(50%-20px);
+    padding-right: calc(50% - 20px);
 }
 .b1, .b2, .b3, .b4, .b5, .b6{
     border: solid 1px #222;
@@ -323,11 +323,12 @@ footer{
 }
 @media screen and (min-width: 760px){
     .wrapper{
+        width: 100%;
+        background-color: #222;
+    }
+    .stage{
         max-width: 1200px;
     }
-
-
-
     .nav-bar>nav>ul, .logo>img, .search{
         display: flex;
         flex-direction: row;
@@ -343,5 +344,9 @@ footer{
     }
     .nav-bar{
         height: 100px;
+    }
+    header{
+        background-size: cover;
+        background-position: center;
     }
 }
