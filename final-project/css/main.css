@@ -191,7 +191,7 @@ header>p{
 .vision>h1, .vision>p, .vision>.learn{
     padding: 10px;
 }
-.vision{
+.vision-sec{
     color: white;
     background-image: url(/images/vision.jpg);
     background-position: center;
@@ -374,6 +374,9 @@ footer{
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: auto 1fr 1fr;
     }
+    .services>div{
+        border: solid 10px white;
+    }
     .services>h1{
         grid-column: 1 / 7;
         grid-row: 1 / 2;
@@ -402,5 +405,13 @@ footer{
        width: 100%;
        padding-top: 0px;
        background-color: #ffe6ac;
+    }
+    .vision{
+        width: 1200px;
+        margin: auto;
+    }
+    .team{
+        width: 1200px;
+        margin: auto;
     }
 }
