@@ -445,5 +445,44 @@ footer{
         grid-column: 1 / 2;
         grid-row: 3 / 4;
     }
-    
+    .contact-sec{
+        background-color: white;
+    }
+    .contact{
+        width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr auto;
+    }
+    .contact>h1{
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+    }
+    .message{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        width: 600px;
+    }
+    .message>form>input{
+        width: 580px;
+    }
+    .location{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    .location>iframe{
+        width: 580px;
+    }
+    .hours{
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+    }
+    .foot{
+        background-color: #222;
+    }
+    footer{
+        width: 1200px;
+        margin: auto;
+    }
 }
