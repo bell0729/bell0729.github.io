@@ -70,7 +70,6 @@ button{
 .wrapper{
     max-width: 760px;
     margin: auto;
-    background-color: aqua;/*--------------------------------------------------*/
 }
 .nav-bar{
     font-size: 20px;
@@ -158,7 +157,7 @@ header>p{
     padding-bottom: 10px;
 }
 .services>div>img{
-    max-width: calc(760px - 20px);
+    width: calc(760px - 20px);
     padding-top: 20px;
     background-color: white;
 }
@@ -410,8 +409,41 @@ footer{
         width: 1200px;
         margin: auto;
     }
+    .team-sec{
+        background-color: white;
+    }
     .team{
+        display: grid;
         width: 1200px;
         margin: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr 1fr;
     }
+    .team>h1{
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+    }
+    #johnimg{
+        width: 600px;
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        padding-top: 0px;
+    }
+    .john{
+        width: 580px;
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    #bobimg{
+        padding-top: 0px;
+        width: 600px;
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    .bob{
+        width: 580px;
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    
 }
