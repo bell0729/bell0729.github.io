@@ -71,10 +71,9 @@ button{/*makes all button font sizes 20px*/
     max-width: 760px;
     margin: auto;
 }
-.nav-bar{/*makes all nav bar items orange with a black background with 10px padding*/
+.nav-bar{/*makes all nav bar items hav a black background with 10px padding and font size 20px*/
     font-size: 20px;
     background-color: #222;
-    color: #c78c06;
     padding: 10px;
 }
 .logo>img{/*puts logo on left of nav bar*/
@@ -89,7 +88,12 @@ button{/*makes all button font sizes 20px*/
 #home{/*makes the home button coloured and padded different than the other buttons*/
     padding: 100px 15px 15px 15px;
     background-color: #c78c06;
+}
+#homecolour{/*makes the home button font the right colour*/
     color: #222;
+}
+nav>ul>li>a{/*makes the nave bar buttons the right colour*/
+    color: #c78c06;
 }
 .search{/*makes .search children display flex*/
     display: flex;
