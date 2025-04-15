@@ -81,7 +81,7 @@ button{/*makes all button font sizes 20px*/
     z-index: 2;
     clear: left;
 }
-.nav-bar>nav>ul>li{/*aligns the nav buttons center*/
+.list{/*aligns the nav buttons center*/
     text-align: center;
     padding: 15px;
 }
@@ -339,7 +339,7 @@ footer{/*makes footer right colour and spacing*/
         justify-content: space-between;
         align-items: center;
     }
-    nav>ul>li{/*makes nav ul lis right spacing*/
+    .list{/*makes nav ul lists right spacing*/
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -379,7 +379,6 @@ footer{/*makes footer right colour and spacing*/
     .services>h1{/*puts services h1 in right grid area*/
         grid-column: 1 / 7;
         grid-row: 1 / 2;
-        grid-row-end: 100px
     }
     .sec-digital{/*puts digital section in right grid area*/
         grid-column: 1 / 4;
