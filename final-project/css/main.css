@@ -47,10 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-
-
-
-
 body{/*makes open sans the font for the website*/
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
@@ -199,7 +195,6 @@ header>p{/*makes the header p have the right spacing*/
     background-image: url(../images/vision.jpg);
     background-position: center;
     background-size: cover;
-    
 }
 .vision>p{/*makes vision p have line height of 20px*/
     line-height: 20px;
