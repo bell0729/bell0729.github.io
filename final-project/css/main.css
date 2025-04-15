@@ -197,8 +197,8 @@ header>p{/*makes the header p have the right spacing*/
 .vision-sec{/*makes visiong right colour with background image*/
     color: white;
     background-image: url(/images/vision.jpg);
-    background-position-y: -2400px;
-    background-size: cover;
+    background-position: center;
+    background-size: 100% 717px;
 }
 .vision>p{/*makes vision p have line height of 20px*/
     line-height: 20px;
