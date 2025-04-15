@@ -114,9 +114,9 @@ nav>ul>li>a{/*makes the nave bar buttons the right colour*/
 header{/*makes the header the correct colour and padding with a image as background*/
     color: white;
     padding: 100px 0px 100px 0px;
-    background-image: url(../images/main-banner.jpg);
+    background-image: url(/images/main-banner.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 header>h1, header>p, .connect{/*makes the 50% black box in header*/
     background-color: rgba(0,0,0,0.5);
