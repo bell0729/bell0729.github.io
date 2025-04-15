@@ -51,155 +51,155 @@ table {
 
 
 
-body{
+body{/*makes open sans the font for the website*/
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
 }
-h1{
+h1{/*makes all h1 tags have a font size of 70px*/
     font-size: 70px;
 }
-h2{
+h2{/*makes all h2 tags have a font size of 40px*/
     font-size: 40px;
 }
-button{
+button{/*makes all button font sizes 20px*/
     font-size: 20px;
 }
-.wrapper{
+.wrapper{/*makes everything in mobile version align center*/
     max-width: 760px;
     margin: auto;
 }
-.nav-bar{
+.nav-bar{/*makes all nav bar items orange with a black background with 10px padding*/
     font-size: 20px;
     background-color: #222;
     color: #c78c06;
     padding: 10px;
 }
-.logo>img{
+.logo>img{/*puts logo on left of nav bar*/
     float: left;
     z-index: 2;
     clear: left;
 }
-.nav-bar>nav>ul>li{
+.nav-bar>nav>ul>li{/*aligns the nav buttons center*/
     text-align: center;
     padding: 15px;
 }
-#home{
+#home{/*makes the home button coloured and padded different than the other buttons*/
     padding: 100px 15px 15px 15px;
     background-color: #c78c06;
     color: #222;
 }
-.search{
+.search{/*makes .search children display flex*/
     display: flex;
 }
-.search>input{
+.search>input{/*makes search bar full width, 20px font size, 25px tall and a rounded border of 2px*/
     width: 100%;
     font-size: 20px;
     border-radius: 2px;
     height: 25px;
 }
-.search>button{
+.search>button{/*makes search button correct colours*/
     background-color: #222;
     color: #c78c06;
     border-color: #c78c06;
     border-style: solid;
     border-width: 1px;
 }
-header{
+header{/*makes the header the correct colour and padding with a image as background*/
     color: white;
     padding: 100px 0px 100px 0px;
     background-image: url(/images/main-banner.jpg);
     background-size: cover;
     background-position: center;
 }
-header>h1, header>p, .connect{
+header>h1, header>p, .connect{/*makes the 50% black box in header*/
     background-color: rgba(0,0,0,0.5);
     padding: 10px;
 }
-header>h1{
+header>h1{/*makes the header h1 have the proper spacing*/
     padding-top: 30px;
     line-height: 83px;
 }
-header>p{
+header>p{/*makes the header p have the right spacing*/
     line-height: 23px;
     padding: 10px;
 }
-.connect>button{
+.connect>button{/*makes the header button the right colours and size*/
     height: 60px;
     background-color: #c78c06;
     border-width: 0px;
     
 }
-.about{
+.about{/*makes about the right spacing and colour*/
     padding-left: 10px;
     padding-right: 10px;
     background-color: #ffe6ac;
 }
-.about-sec>img{
+.about-sec>img{/*makes about image right size and spacing*/
     width: calc(760px - 20px);
     padding-top: 10px;
 }
-.about-sec>h1{
+.about-sec>h1{/*makes about h1 right spacing*/
     padding-top: 30px;
     padding-bottom: 20px;
 }
-.about-sec>p{
+.about-sec>p{/*makes about p right spacing*/
     line-height: 20px;
     padding-bottom: 20px;
 }
-.services{
+.services{/*makes services have 10px of padding on all sides*/
     padding: 10px;
 }
-.services>div{
+.services>div{/*makes all services divs orange with 10px padding on bottom*/
     background-color: #ffe6ac;
     padding-bottom: 10px;
 }
-.services>div>img{
+.services>div>img{/*makes all services div images the right size, spacing and colour*/
     width: calc(760px - 20px);
     padding-top: 20px;
     background-color: white;
 }
-.services>div>h1{
+.services>div>h1{/*makes all services div h1s have 20px padding on bottom*/
     padding-bottom: 20px;
 }
-.services>h1{
+.services>h1{/*makes all services h1s have right spacing*/
     padding-bottom: 20px;
     padding-top: 40px;
 }
-.services>div>h2{
+.services>div>h2{/*makes all services div h2s have right spacing*/
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
 }
-.services>div>p{
+.services>div>p{/*makes all services div ps have right spacing*/
     padding-bottom: 10px;
     line-height: 20px;
     padding-left: 10px;
 }
-.services>div>form{
+.services>div>form{/*makes all services froms have 10px padding on left*/
     padding-left: 10px;
 }
-.services>div>form>button{
+.services>div>form>button{/*makes all services div form buttons have right colours, spacing and font size*/
     font-size: 20px;
     background-color: #222;
     color: white;
     padding: 25px 15px 25px 15px;
 }
-.vision>h1, .vision>p, .vision>.learn{
+.vision>h1, .vision>p, .vision>.learn{/*makes padding 10px all around these parts of .vision*/
     padding: 10px;
 }
-.vision-sec{
+.vision-sec{/*makes visiong right colour with background image*/
     color: white;
     background-image: url(/images/vision.jpg);
     background-position: center;
     background-size: cover;
 }
-.vision>p{
+.vision>p{/*makes vision p have line height of 20px*/
     line-height: 20px;
 }
-.learn>button{
+.learn>button{/*makes vision learn more button right spacing, border, and colour*/
     padding: 30px 20px 30px 20px;
     background-color: #222;
     color: white;
@@ -207,105 +207,105 @@ header>p{
     border-color: #c78c06;
     border: 2px;
 }
-.team>img, .team{
+.team>img, .team{/*makes team have 20px of padding on top*/
     padding-top: 20px;
 }
-.team{
+.team{/*makes team right spacing*/
     padding-left: 10px;
     padding-right: 10px;
 }
-.team>img{
+.team>img{/*makes team images right size*/
     width: calc(760px - 20px);
 }
-.team>div>h2{
+.team>div>h2{/*makes team div h2s have 10px padding on bottom*/
     padding-bottom: 10px;
 }
-.team>div{
+.team>div{/*makes team divs orange with 10px padding all around*/
     background-color: #ffe6ac;
     padding: 10px;
 }
-.team>div>hr{
+.team>div>hr{/*makes team ling breaks right colours*/
     color: #c78c06;
     border-style: solid;
     border-color: #c78c06;
 }
-.team>div>h3{
+.team>div>h3{/*makes team div h3s font weight bold*/
     font-weight: bold;
 }
-.team>div>p{
+.team>div>p{/*makes team div ps right spacing*/
     padding-bottom: 20px;
     line-height: 20px;
 }
-.contact{
+.contact{/*makes contact right spacing*/
     padding: 0px 10px 10px 10px;
 }
-.contact>h1{
+.contact>h1{/*makes contact h1 have right spacing*/
     padding-top: 70px;
     padding-bottom: 20px;
 }
-.contact>h2{
+.contact>h2{/*makes contact h2s have 20px padding on top*/
     padding-top: 20px;
 }
-.message>form>input{
+.message>form>input{/*makes message form inputs right size*/
     width: calc(760px - 25px);
 }
-.message>form{
+.message>form{/*makes message forms right spacing*/
     padding-bottom: 15px;
     padding-top: 2px;
 }
-.fname{
+.fname{/*makes fname have 15px of padding on top*/
     padding-top: 15px;
 }
-.info>input{
+.info>input{/*makes the info input 100px height*/
     height: 100px;
 }
-.sub>button{
+.sub>button{/*makes the submid button right colours*/
     background-color: #222;
     color: #c78c06;
     border-style: solid;
 }
-.location>h2{
+.location>h2{/*makes location h2 have 20px padding on bottom*/
     padding-bottom: 20px;
 }
-.location>iframe{
+.location>iframe{/*makes map right size*/
     width: calc(760px - 20px);
 }
-.b1{
+.b1{/*makes b1 have grid area b1*/
     grid-area: b1;
 }
-.b2{
+.b2{/*makes b2 have grid area b2*/
     grid-area: b2;
 }
-.b3{
+.b3{/*makes b3 have grid area b3*/
     grid-area: b3;
 }
-.b4{
+.b4{/*makes b4 have grid area b4*/
     grid-area: b4;
 }
-.b5{
+.b5{/*makes b5 have grid area b5*/
     grid-area: b5;
 }
-.b6{
+.b6{/*makes b6 have grid area b6*/
     grid-area: b6;
 }
-.hours>h2{
+.hours>h2{/*makesh hours h2 have grid area header and padding 10px on bottom*/
     grid-area: header;
     padding-bottom: 10px;
 }
-.b1, .b2{
+.b1, .b2{/*makes b1 and b2 right colour and centered in their cells*/
     background-color: #ffe6ac;
     padding-left: calc(50% - 20px );
     padding-right: calc(50% - 20px);
 }
-.b1, .b2, .b3, .b4, .b5, .b6{
+.b1, .b2, .b3, .b4, .b5, .b6{/*makes b1-b6 right border colours and padding top 15px*/
     border: solid 1px #222;
     padding-top: 15px;
 }
-.b3, .b4, .b5, .b6{
+.b3, .b4, .b5, .b6{/*makes b3-b6 background white with 5px padding on left*/
     background-color: white;
     padding-left: 5px;
 }
-.hours{
+.hours{/*makes the grid and places all grid elements where they should go*/
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -315,174 +315,162 @@ header>p{
     "b3 b5"
     "b4 b6";
 }
-footer{
+footer{/*makes footer right colour and spacing*/
     color: #c78c06;
     padding: 20px 10px 20px 10px;
     background-color: #222;
 }
-@media screen and (min-width: 760px){
-    .wrapper{
+@media screen and (min-width: 760px){/*makes a media query when the screen reached 760px*/
+    .wrapper{/*makes wrapper width 100% and right colour*/
         max-width: 100%;
         background-color: #222;
     }
-    .nav-bar{
+    .nav-bar, header>h1, header>p, .connect, .vision, footer{/*makes most areas center*/
         max-width: 1200px;
         margin: auto;
     }
-    .nav-bar>nav>ul, .logo>img, .search{
+    .nav-bar>nav>ul, .logo>img, .search{/*makes nav bar flex and arange nav bar items*/
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
     }
-    nav>ul>li{
+    nav>ul>li{/*makes nav ul lis right spacing*/
         padding-left: 30px;
         padding-right: 30px;
     }
-    #home{
+    #home{/*makes first nav buttonright spacing*/
         padding-top: 15px;
     }
-    .search>input{
+    .search>input{/*makes search bar input width 200px*/
         width: 200px;
     }
-    header>h1, header>p, .connect{
-        width: 1200px;
-        margin: auto;
-    }
-    .about{
+    .about{/*makes about padding bottom 10px*/
         padding-bottom: 10px;
     }
-    .about-sec{
+    .about-sec{/*aranged about and centers it*/
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         width: 1200px;
         margin: auto;
     }
-    .about-sec>img{
+    .about-sec>img{/*makes about image right width and spacing*/
         width: 600px;
         padding-right: 10px;
     }
-    .service-sec{
+    .service-sec{/*makes services background colour white*/
         background-color: white;
     }
-    .services{
+    .services{/*makes services center and creates services grid*/
         width: 1200px;
         margin: auto;
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: auto 1fr 1fr;
     }
-    .services>div{
+    .services>div{/*makes services divs have right broder style*/
         border: solid 10px white;
     }
-    .services>h1{
+    .services>h1{/*puts services h1 in right grid area*/
         grid-column: 1 / 7;
         grid-row: 1 / 2;
         grid-row-end: 100px
     }
-    .sec-digital{
+    .sec-digital{/*puts digital section in right grid area*/
         grid-column: 1 / 4;
         grid-row: 2 / 3;
     }
-    .sec-market{
+    .sec-market{/*puts market section in right grid area*/
         grid-column: 4 / 7;
         grid-row: 2 / 3;
     }
-    .sec-video{
+    .sec-video{/*puts video section in right grid area*/
         grid-column: 1 / 3;
         grid-row: 3 / 4;
     }
-    .sec-web{
+    .sec-web{/*puts web section in right grid area*/
         grid-column: 3 / 5;
         grid-row: 3 / 4;
     }
-    .sec-print{
+    .sec-print{/*puts print section h1 in right grid area*/
         grid-column: 5 / 7;
         grid-row: 3 / 4;
-    }.services>div>img{
+    }.services>div>img{/*makes services div images right width, spacing and colour*/
        width: 100%;
        padding-top: 0px;
        background-color: #ffe6ac;
     }
-    .vision{
-        width: 1200px;
-        margin: auto;
-    }
-    .team-sec{
+    .team-sec{/*makes team background colour white*/
         background-color: white;
     }
-    .team{
+    .team{/*makes team center and creates team grid*/
         display: grid;
         width: 1200px;
         margin: auto;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto 1fr 1fr;
     }
-    .team>h1{
+    .team>h1{/*puts team h1 in right grid area*/
         grid-column: 1 / 3;
         grid-row: 1 / 2;
     }
-    #johnimg{
+    #johnimg{/*puts john image in right grid area*/
         width: 600px;
         grid-column: 1 / 2;
         grid-row: 2 / 3;
         padding-top: 0px;
     }
-    .john{
+    .john{/*puts john bio in right grid area*/
         width: 580px;
         grid-column: 2 / 3;
         grid-row: 2 / 3;
     }
-    #bobimg{
+    #bobimg{/*puts bob image in right grid area*/
         padding-top: 0px;
         width: 600px;
         grid-column: 2 / 3;
         grid-row: 3 / 4;
     }
-    .bob{
+    .bob{/*puts bob bio in right grid area*/
         width: 580px;
         grid-column: 1 / 2;
         grid-row: 3 / 4;
     }
-    .contact-sec{
+    .contact-sec{/*makes connect background right colour*/
         background-color: white;
     }
-    .contact{
+    .contact{/*makes connect center and creates connect grid*/
         width: 1200px;
         margin: auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto 1fr auto;
     }
-    .contact>h1{
+    .contact>h1{/*puts connect h1 in right grid area*/
         grid-column: 1 / 3;
         grid-row: 1 / 2;
     }
-    .message{
+    .message{/*puts message in right grid area*/
         grid-column: 1 / 2;
         grid-row: 2 / 3;
         width: 600px;
     }
-    .message>form>input{
+    .message>form>input{/*makes message form inputs width 580px*/
         width: 580px;
     }
-    .location{
+    .location{/*puts location in right grid area*/
         grid-column: 2 / 3;
         grid-row: 2 / 3;
     }
-    .location>iframe{
+    .location>iframe{/*makes map 580px wide*/
         width: 580px;
     }
-    .hours{
+    .hours{/*puts hours in right grid area*/
         grid-column: 1 / 3;
         grid-row: 3 / 4;
     }
-    .foot{
+    .foot{/*makes footer right colour*/
         background-color: #222;
-    }
-    footer{
-        width: 1200px;
-        margin: auto;
     }
 }
